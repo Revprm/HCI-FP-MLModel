@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  nutrigrow-api:
+    image: revprm/fp-hci-model:latest
+    container_name: nutrigrow-api
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      PYTHONDONTWRITEBYTECODE: 1
+      PYTHONUNBUFFERED: 1
+    # Uncomment if building locally instead of pulling from Docker Hub
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
