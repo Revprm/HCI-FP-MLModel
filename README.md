@@ -59,7 +59,7 @@ Melakukan prediksi status gizi dan memberikan tingkat kepercayaan berdasarkan in
 | Field             | Tipe | Deskripsi                            | Contoh |
 | ----------------- | ---- | ------------------------------------ | ------ |
 | Umur (bulan)      | int  | Umur balita dalam bulan              | 21     |
-| Jenis Kelamin     | int  | 0 = Perempuan, 1 = Laki-laki         | 1      |
+| Jenis Kelamin     | int  | 0 = Laki-laki, 1 = Perempuan         | 1      |
 | Tinggi Badan (cm) | int  | Tinggi badan balita dalam sentimeter | 77     |
 
 #### Contoh Response
